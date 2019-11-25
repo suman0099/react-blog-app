@@ -1,15 +1,22 @@
 {
-  "name": "react-blog",
-  "version": "1.0.0",
-  "description": "react blog",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Suman Mahato",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.7.12"
-  }
+    "name": "react-blog",
+    "version": "1.0.0",
+    "description": "react blog",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "backend": "nodemon index.js"
+    },
+    "author": "Suman Mahato",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.3",
+        "express": "^4.17.1",
+        "mongoose": "^5.7.12"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.1"
+    }
 }
